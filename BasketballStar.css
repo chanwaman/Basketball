@@ -1,0 +1,89 @@
+h1.pop{
+
+	text-align: center;
+	color: #4d88ff;
+	text-shadow: 4px 4px 4px #b3ccff;
+	background-color: #e6e6ff;
+
+}
+#para{
+
+	font-size: 24px;
+	color: #800000;
+	text-shadow: 4px 4px 4px #ff6666;
+	text-align: left;
+	transform: rotate(2deg);
+}
+#para1{
+
+	font-size: 16px;
+	color: black;
+	text-shadow: 4px 4px 4px black;
+	text-align: left;
+}
+#bdy{
+
+	background-color: #ffe6e6;
+
+}
+#para2{
+
+	font-size: 16px;
+	color: #333300;
+	text-shadow: 4px 4px 4px #cccc00;
+	text-align: left;
+}
+#para3{
+
+	font-size: 16px;
+	color: #b30059;
+	text-shadow: 4px 4px 4px #ff4da6;
+	text-align: left;
+}
+#para4{
+
+	font-size: 16px;
+	color: #b30059;
+	text-shadow: 4px 4px 4px #ff80bf;
+	text-align: left;
+}
+#para5{
+
+	font-size: 16px;
+	color: #0000b3;
+	text-shadow: 4px 4px 4px #8080ff;
+	text-align: left;
+}
+#tb{
+	border: 2px solid black;
+}
+#th{
+	font-size: 20px;
+	color: #660000;
+	text-shadow: 3px 3px 3px #ff6666;
+	transform: rotate(10deg);
+}
+#th2{
+	font-size: 20px;
+	color: #4d004d;
+	text-shadow: 3px 3px 3px #ffb3ff;
+	transform: rotate(7deg);
+}
+#th3{
+	font-size: 20px;
+	color: #009900;
+	text-shadow: 3px 3px 3px #99ff99;
+	transform: rotate(15deg);
+}
+#th4{
+	font-size: 20px;
+	color: #006666;
+	text-shadow: 3px 3px 3px #b3ffff;
+	transform: rotate(15deg);
+}
+#th5{
+	font-size: 20px;
+	color: #001a66;
+	text-shadow: 3px 3px 3px #ccd9ff;
+	transform: rotate(10deg);
+}

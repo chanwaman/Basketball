@@ -1,0 +1,48 @@
+h1{
+	text-align: center;
+	color: blue;
+}
+.h1_1{
+	text-shadow:3px 3px 3px #000066;
+	background-color: #ff8000;
+}
+h2{
+	text-align: left;
+	font-size: 120%;
+	
+}
+.h2_1{
+	color: #990099;
+	text-shadow: 3px 3px 3px #ff00ff;
+}
+body{
+	background-color: #ccffdd;
+}
+table{
+	background-color: #e6ffcc;
+}
+p{
+	text-align: left;
+	color: brown;
+	font-size: 120%;
+}
+p.para1{
+	color: #000099;
+	text-shadow:2px 2px 2px #000066;
+	background-color: #b3d9ff;
+	font-size: 18px;
+}
+button.text{
+	font-size: 120%;
+	text-shadow:2px 2px 2px #7575a3;
+	background-color: #ffddcc;
+	transform: scale(1.5);
+    transform: skewY(20deg);
+    transform: skewX(25deg);
+
+}
+video{
+
+	width: 350px;
+	height: 280px;
+}

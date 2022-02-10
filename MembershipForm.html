@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<i><h1>Membership Form</h1></i>
+	<title>Membership Form</title>
+	<link rel="stylesheet" href="MembershipForm.css" />
+</head>
+<body>
+	<p id="pt"><i><strong>Welcome to join Us . Let go to play Basketball with Us . We look forward to see you in our Club house!</strong></i></p>
+<form method="post" enctype="multipart/form-data">
+	<fieldset>
+		<legend class="color"><i><strong>Member Information</strong></i></legend>
+		LastName :
+		<input type="text" name="userlastname" required="required">
+		FirstName :
+		<input type="text" name="userfirstname" required="required">
+		<br>
+		Age :
+		<input type="text" name="userage" required="required">
+		<br>
+		Gender :
+		<input type="radio" name="gender" value="M" required="required"/>Male
+		<input type="radio" name="gender" value="F" />Female
+		<br>
+		experience in playing basketball :
+		<input type="number" min="0" max="30" required="required"/>
+		<br>
+		Telephone number :
+		<input type="tel" pattern="^852-[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]" required="required">
+		<br>
+		Email Address :
+		<input type="email" required="required" />
+		<br>
+		Address :
+		<textarea rows="5" cols="50" name="comment">
+		</textarea><br>
+	</fieldset>
+	<fieldset>
+		<legend class="color"><i><strong>Create Account</strong></i></legend>
+		Email Address :
+		<input type="email" required="required" /><br>
+		Username :
+		<input type="text" name="username" required="required"><br>
+		Password: <input type="password" name="password" required="required" />
+		<br>
+		Confirm password: <input type="password" name="password" required="required"/>
+	</fieldset>
+	<br>
+	<input type="submit" value="Send Form" />
+	<input type="reset" value="Clear Form" /><br>
+	<input type="button" value="I Need Help" onclick="alert('Call hotline 68797578 for help');" /><br>
+</form>
+<br>
+<button class="text" onclick="document.location='Activity.html'"><i><strong>TimeTable</strong></i></button><br>
+<button class="text" onclick="document.location='SignUpForm.html'"><i><strong>Sign Up Form</strong></i></button><br>
+<button class="text" onclick="document.location='basketball.html'"><i><strong>Basketball Details</strong></i></button><br>
+<button class="text" onclick="document.location='index.html'"><i><strong>Home Page</strong></i></button><br>
+<button id="text1" onclick="document.location='BasketballStar.html'"><i><strong>Basketball Star</strong></i></button><br>
+</body>
+</html>

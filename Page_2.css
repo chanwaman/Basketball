@@ -1,0 +1,77 @@
+h1{
+
+	text-align: left;
+	color: #0086b3;
+}
+h1.color{
+
+	text-shadow: 5px 5px 5px #1a8cff;
+	background-color: #99ccff;
+	font-size: 250%;
+	text-align: center;
+}
+body.bgcolor{
+
+	background-color: #b3ffff;
+}
+table,th,td{
+
+	border: 2px solid black;
+}
+p.para1{
+
+	color: #00134d;
+	text-shadow: 5px 5px 5px #a3a3c2;
+	font-size: 20px;
+	background-color: #ff6699;
+}
+td.color{
+
+	font-size: 110%;
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color: : yellow;
+	border-bottom-color: green;
+	background-color: #e6ffff;
+	text-align: center;
+	text-shadow: 5px 5px 5px #1a8cff;
+}
+th.color{
+
+	font-size: 130%;
+	text-align: left;
+	background-color: #ccffff;
+	text-shadow: 5px 5px 5px #a3a3c2;
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color: : yellow;
+	border-bottom-color: green;
+}
+table.color{
+
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color: : yellow;
+	border-bottom-color: green;
+
+}
+tr.color{
+
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color: : yellow;
+	border-bottom-color: green;
+
+}
+button.color{
+
+	font-size: 120%;
+	background-color: #f7e6ff;
+	color: #0000b3;
+	border-right-color: red;
+	border-left-color: orange;
+	border-top-color: : yellow;
+	border-bottom-color: green;
+	text-shadow: 3px 3px 3px #1a8cff;
+	transform: skew(5deg);
+}
